@@ -1,0 +1,203 @@
+/*  reset code start */
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ 
+ .container{
+ 	width: 980px;
+ 	margin: auto; 
+ 	padding-top: 150px; 
+ }
+ /*reset code end*/
+
+.fb-auth{
+	width: 100%;
+	height: 100vh;
+	background-color: #f0f2f5;
+}
+.fb-auth:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.fb-auth .fb-left img{
+	width: 300px;
+	margin-left: -30px;
+	margin-top: 30px;
+	position: absolute;
+
+}
+.fb-auth .fb-left{
+	width: 55%;
+	float: left;
+}
+
+.fb-auth .fb-left h2{
+	font-family: tahoma;
+	font-weight: normal;
+	color: #303030;
+	width: 85%;
+	margin-top: 129px;
+}
+
+.fb-auth .fb-right{
+	width: 45%;
+	float: left;
+	display: inline-block;
+
+}
+
+.fb-auth .fb-right .login-area{
+	background-color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	
+}
+
+.fb-auth .fb-right .login-area input{
+	display: block;
+	padding: 15px 20px;
+	width: 348px;
+	margin-left: 13px;
+	margin-top: 6px;
+	border: 1px solid #808080;
+	outline: none;
+	border-radius: 5px;
+	
+}
+.fb-auth .fb-right .login-area input:focus{
+	border:1px solid #1877f2;
+}
+
+
+
+.fb-auth .fb-right .login-area .log{
+	width: 390px;
+	padding: 10px;
+	background-color: #1877f2;
+	font-size: 20px;
+	color: #fff;
+}
+
+.fb-auth .fb-right .login-area .log:hover{
+	background-color: #166fe5;
+}
+
+.fb-auth .fb-right .login-area .forget{
+	display: block;
+	padding: 10px 45px;
+	width: 290px;
+	margin-left: 20px;
+	text-align: center;
+	color: #1877f2;
+	background-color: transparent;
+}
+
+.fb-auth .fb-right .login-area .forget:hover{
+	text-decoration: underline;
+}
+
+.fb-auth .fb-right .login-area hr{
+	margin-top: 20px;
+	width: 390px;
+	margin-left: 13px;
+	color: #808080;
+}
+
+.fb-auth .fb-right .login-area .create{
+	display: block;
+	padding: 15px;
+	width: 200px;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	background-color: #47b536;
+	color: #fff;
+	font-weight: 700;
+}
+
+.fb-auth .fb-right .login-area .create:hover{
+	background-color: #36A420;
+	text-decoration: none;
+}
+
+.fb-auth .fb-right p{
+	text-align: center;
+	margin: 20px;
+	color: #303030;
+	background-color: transparent;
+}
+.fb-auth .fb-right a{
+	color: #000;
+	font-weight: 400;
+	font-weight: bold;
+}
+
+.fb-auth .fb-right a:hover{
+	text-decoration: underline;
+}
+
+.footer-top ul{
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.footer-top ul li{
+	display: inline-block;
+	padding: 5px;
+	
+	font-size: 12px;
+}
+
+.footer-top .fas{
+	margin-top: -8px;
+	font-size: 20px;
+	position: absolute;
+}
+
+.footer-top hr{
+	width: 69%;
+	margin-left: 150px;
+}
+
+
+.footer-top ul li a{
+	color: #808080;
+}
+
+.footer-bottom ul{
+	margin-left: 150px;
+	margin-top: 10px;
+    width: 70%;
+
+}
+
+.footer-bottom ul li{
+	display: inline-block;
+	padding: 4px;
+	color: #808080;
+	font-size: 13px;
+
+}
+
+.footer-bottom ul li a{
+	color: #808080;
+}
+
+.footer-bottom p{
+	margin-left: 151px;
+	font-size: 11px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #808080;
+}
